@@ -1,0 +1,14 @@
+C:\Users\jburchett\source\repos\StatTrackerAPI\bin\Debug\netcoreapp2.1\StatTrackerAPI.deps.json
+C:\Users\jburchett\source\repos\StatTrackerAPI\bin\Debug\netcoreapp2.1\StatTrackerAPI.runtimeconfig.json
+C:\Users\jburchett\source\repos\StatTrackerAPI\bin\Debug\netcoreapp2.1\StatTrackerAPI.runtimeconfig.dev.json
+C:\Users\jburchett\source\repos\StatTrackerAPI\bin\Debug\netcoreapp2.1\StatTrackerAPI.dll
+C:\Users\jburchett\source\repos\StatTrackerAPI\bin\Debug\netcoreapp2.1\StatTrackerAPI.pdb
+C:\Users\jburchett\source\repos\StatTrackerAPI\obj\Debug\netcoreapp2.1\StatTrackerAPI.csprojAssemblyReference.cache
+C:\Users\jburchett\source\repos\StatTrackerAPI\obj\Debug\netcoreapp2.1\StatTrackerAPI.csproj.CoreCompileInputs.cache
+C:\Users\jburchett\source\repos\StatTrackerAPI\obj\Debug\netcoreapp2.1\StatTrackerAPI.RazorAssemblyInfo.cache
+C:\Users\jburchett\source\repos\StatTrackerAPI\obj\Debug\netcoreapp2.1\StatTrackerAPI.RazorAssemblyInfo.cs
+C:\Users\jburchett\source\repos\StatTrackerAPI\obj\Debug\netcoreapp2.1\StatTrackerAPI.AssemblyInfoInputs.cache
+C:\Users\jburchett\source\repos\StatTrackerAPI\obj\Debug\netcoreapp2.1\StatTrackerAPI.AssemblyInfo.cs
+C:\Users\jburchett\source\repos\StatTrackerAPI\obj\Debug\netcoreapp2.1\StatTrackerAPI.RazorTargetAssemblyInfo.cache
+C:\Users\jburchett\source\repos\StatTrackerAPI\obj\Debug\netcoreapp2.1\StatTrackerAPI.dll
+C:\Users\jburchett\source\repos\StatTrackerAPI\obj\Debug\netcoreapp2.1\StatTrackerAPI.pdb
