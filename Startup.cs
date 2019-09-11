@@ -11,7 +11,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using StatTrackerAPI.DataPersistence;
+using StatTrackerAPI.Persistence;
 
 namespace StatTrackerAPI
 {
@@ -31,6 +31,7 @@ namespace StatTrackerAPI
             services.AddDbContext<RosterContext>(options =>
                 //options.UseSqlServer(Configuration.GetConnectionString("local")));
                 options.UseSqlServer(Configuration.GetConnectionString("statTrackerDb")));
+            services.AddScoped<IStatRepository, StatRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

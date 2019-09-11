@@ -2,15 +2,17 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using StatTrackerAPI.Persistence;
 
 namespace StatTrackerAPI.Migrations
 {
     [DbContext(typeof(RosterContext))]
-    partial class RosterContextModelSnapshot : ModelSnapshot
+    [Migration("20190911063155_AddRosterName")]
+    partial class AddRosterName
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

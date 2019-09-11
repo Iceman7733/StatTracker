@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using StatTrackerAPI.Persistence;
 
 namespace StatTrackerAPI.Controllers
 {
@@ -10,6 +11,13 @@ namespace StatTrackerAPI.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
+        private IStatRepository _statRepository;
+
+        public ValuesController(IStatRepository statRepository)
+        {
+            _statRepository = statRepository;
+        }
+
         // GET api/values
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
@@ -26,8 +34,10 @@ namespace StatTrackerAPI.Controllers
 
         // POST api/values
         [HttpPost]
-        public void Post([FromBody] string value)
+        public void Post(string value)
         {
+            if(value != null)
+                _statRepository.CreateRoster(value);
         }
 
         // PUT api/values/5

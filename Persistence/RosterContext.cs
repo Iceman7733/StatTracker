@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace StatTrackerAPI.DataPersistence
+namespace StatTrackerAPI.Persistence
 {
     public class RosterContext: DbContext
     {
