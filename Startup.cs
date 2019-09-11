@@ -29,6 +29,7 @@ namespace StatTrackerAPI
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             services.AddDbContext<RosterContext>(options =>
+                //options.UseSqlServer(Configuration.GetConnectionString("local")));
                 options.UseSqlServer(Configuration.GetConnectionString("statTrackerDb")));
         }
 

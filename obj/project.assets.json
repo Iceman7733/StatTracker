@@ -11799,23 +11799,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jburchett\\.nuget\\packages\\": {},
+    "C:\\Users\\burchettj\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jburchett\\source\\repos\\StatTrackerAPI\\StatTrackerAPI.csproj",
+      "projectUniqueName": "C:\\Users\\burchettj\\Desktop\\Personal Repo\\StatTrackerAPI.csproj",
       "projectName": "StatTrackerAPI",
-      "projectPath": "C:\\Users\\jburchett\\source\\repos\\StatTrackerAPI\\StatTrackerAPI.csproj",
-      "packagesPath": "C:\\Users\\jburchett\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jburchett\\source\\repos\\StatTrackerAPI\\obj\\",
+      "projectPath": "C:\\Users\\burchettj\\Desktop\\Personal Repo\\StatTrackerAPI.csproj",
+      "packagesPath": "C:\\Users\\burchettj\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\burchettj\\Desktop\\Personal Repo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\jburchett\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\burchettj\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -11823,7 +11823,9 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://partechnology.pkgs.visualstudio.com/_packaging/Brink/nuget/v3/index.json": {},
+        "https://partechnology.pkgs.visualstudio.com/_packaging/Legacy/nuget/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.1": {

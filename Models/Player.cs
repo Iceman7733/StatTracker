@@ -8,6 +8,7 @@ namespace StatTrackerAPI.Models
     public class Player
     {
         public int Id { get; set; }
+        public int RosterId { get; set; }
         public string FirstName{ get; set; }
         public string LastName { get; set; }
         public int PlateAppearances { get; set; }
@@ -24,5 +25,6 @@ namespace StatTrackerAPI.Models
         public double OnBasePercentage { get; set; }
         public double SluggingPercentage { get; set; }
         public double OnBasePlusSlugging { get; set; }
+        public virtual Roster Roster { get; set; }
     }
 }

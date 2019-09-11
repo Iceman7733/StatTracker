@@ -12,3 +12,17 @@ C:\Users\jburchett\source\repos\StatTrackerAPI\obj\Debug\netcoreapp2.1\StatTrack
 C:\Users\jburchett\source\repos\StatTrackerAPI\obj\Debug\netcoreapp2.1\StatTrackerAPI.RazorTargetAssemblyInfo.cache
 C:\Users\jburchett\source\repos\StatTrackerAPI\obj\Debug\netcoreapp2.1\StatTrackerAPI.dll
 C:\Users\jburchett\source\repos\StatTrackerAPI\obj\Debug\netcoreapp2.1\StatTrackerAPI.pdb
+C:\Users\burchettj\Desktop\Personal Repo\bin\Debug\netcoreapp2.1\StatTrackerAPI.deps.json
+C:\Users\burchettj\Desktop\Personal Repo\bin\Debug\netcoreapp2.1\StatTrackerAPI.runtimeconfig.json
+C:\Users\burchettj\Desktop\Personal Repo\bin\Debug\netcoreapp2.1\StatTrackerAPI.runtimeconfig.dev.json
+C:\Users\burchettj\Desktop\Personal Repo\bin\Debug\netcoreapp2.1\StatTrackerAPI.dll
+C:\Users\burchettj\Desktop\Personal Repo\bin\Debug\netcoreapp2.1\StatTrackerAPI.pdb
+C:\Users\burchettj\Desktop\Personal Repo\obj\Debug\netcoreapp2.1\StatTrackerAPI.csprojAssemblyReference.cache
+C:\Users\burchettj\Desktop\Personal Repo\obj\Debug\netcoreapp2.1\StatTrackerAPI.csproj.CoreCompileInputs.cache
+C:\Users\burchettj\Desktop\Personal Repo\obj\Debug\netcoreapp2.1\StatTrackerAPI.RazorAssemblyInfo.cache
+C:\Users\burchettj\Desktop\Personal Repo\obj\Debug\netcoreapp2.1\StatTrackerAPI.RazorAssemblyInfo.cs
+C:\Users\burchettj\Desktop\Personal Repo\obj\Debug\netcoreapp2.1\StatTrackerAPI.AssemblyInfoInputs.cache
+C:\Users\burchettj\Desktop\Personal Repo\obj\Debug\netcoreapp2.1\StatTrackerAPI.AssemblyInfo.cs
+C:\Users\burchettj\Desktop\Personal Repo\obj\Debug\netcoreapp2.1\StatTrackerAPI.RazorTargetAssemblyInfo.cache
+C:\Users\burchettj\Desktop\Personal Repo\obj\Debug\netcoreapp2.1\StatTrackerAPI.dll
+C:\Users\burchettj\Desktop\Personal Repo\obj\Debug\netcoreapp2.1\StatTrackerAPI.pdb

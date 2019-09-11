@@ -8,6 +8,6 @@ namespace StatTrackerAPI.Models
     public class Roster
     {
         public int Id { get; set; }
-        public List<Player> Players { get; set; }
+        public virtual List<Player> Players { get; set; }
     }
 }
