@@ -28,6 +28,7 @@ namespace StatTrackerAPI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+
             services.AddDbContext<RosterContext>(options =>
                 //options.UseSqlServer(Configuration.GetConnectionString("local")));
                 options.UseSqlServer(Configuration.GetConnectionString("statTrackerDb")));
@@ -47,7 +48,8 @@ namespace StatTrackerAPI
             }
 
             app.UseHttpsRedirection();
-            app.UseMvc();
+            //app.UseMvc(routes => routes.MapRoute("default", "{controller=Home}/{action=Index}/{id?}"));
+            app.UseMvcWithDefaultRoute();
         }
     }
 }

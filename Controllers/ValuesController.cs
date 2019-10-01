@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using StatTrackerAPI.Models;
 using StatTrackerAPI.Persistence;
 
 namespace StatTrackerAPI.Controllers
@@ -34,10 +35,22 @@ namespace StatTrackerAPI.Controllers
 
         // POST api/values
         [HttpPost]
-        public void Post(string value)
+        public void AddRoster(string value)
         {
             if(value != null)
                 _statRepository.CreateRoster(value);
+        }
+
+        [HttpPost]
+        public void AddPlayer(Player data)
+        {
+            Console.Write("rrrowwww");
+        }
+
+        [HttpPost]
+        public void AddPlayer2(string data)
+        {
+            Console.Write("rrrowwww");
         }
 
         // PUT api/values/5
