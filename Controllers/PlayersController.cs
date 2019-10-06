@@ -1,20 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using StatTrackerAPI.Models;
 using StatTrackerAPI.Persistence;
+using System;
+using System.Collections.Generic;
 
 namespace StatTrackerAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ValuesController : ControllerBase
+    public class PlayersController : ControllerBase
     {
         private IStatRepository _statRepository;
 
-        public ValuesController(IStatRepository statRepository)
+        public PlayersController(IStatRepository statRepository)
         {
             _statRepository = statRepository;
         }
@@ -33,22 +31,8 @@ namespace StatTrackerAPI.Controllers
             return "value";
         }
 
-        // POST api/values
         [HttpPost]
-        public void AddRoster(string value)
-        {
-            if(value != null)
-                _statRepository.CreateRoster(value);
-        }
-
-        [HttpPost]
-        public void AddPlayer(Player data)
-        {
-            Console.Write("rrrowwww");
-        }
-
-        [HttpPost]
-        public void AddPlayer2(string data)
+        public void AddPlayer([FromBody] Player data)
         {
             Console.Write("rrrowwww");
         }
