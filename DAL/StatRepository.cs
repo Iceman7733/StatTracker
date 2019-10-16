@@ -1,7 +1,7 @@
-﻿using StatTrackerAPI.Models;
-using System;
+﻿using System;
+using StatTrackerAPI.Models;
 
-namespace StatTrackerAPI.Persistence
+namespace StatTrackerAPI.DAL
 {
     public class StatRepository : IStatRepository
     {

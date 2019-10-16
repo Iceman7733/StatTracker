@@ -1,6 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc;
 using StatTrackerAPI.Models;
-using StatTrackerAPI.Persistence;
+using StatTrackerAPI.DAL;
 using System;
 using System.Collections.Generic;
 
@@ -19,14 +19,14 @@ namespace StatTrackerAPI.Controllers
 
         // GET api/values
         [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
+        public ActionResult<IEnumerable<string>> MyMethod()
         {
             return new string[] { "value1", "value2" };
         }
 
         // GET api/values/5
         [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
+        public ActionResult<string> MyMethod2(int id)
         {
             return "value";
         }

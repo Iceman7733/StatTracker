@@ -1,10 +1,7 @@
-﻿using StatTrackerAPI.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
+using StatTrackerAPI.Models;
 
-namespace StatTrackerAPI.Persistence
+namespace StatTrackerAPI.DAL
 {
     public class StatTrackerDbInitializer //: CreateDatabaseIfNotExists<RosterContext>
     {

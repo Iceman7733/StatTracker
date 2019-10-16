@@ -12,7 +12,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using StatTrackerAPI.Persistence;
+using StatTrackerAPI.DAL;
 
 namespace StatTrackerAPI
 {
@@ -44,8 +44,8 @@ namespace StatTrackerAPI
                 options.AddPolicy(_corsPolicyName, corsBuilder.Build());
             });
             services.AddDbContext<RosterContext>(options =>
-                //options.UseSqlServer(Configuration.GetConnectionString("local")));
-                options.UseSqlServer(Configuration.GetConnectionString("statTrackerDb")));
+                options.UseSqlServer(Configuration.GetConnectionString("local")));
+                //options.UseSqlServer(Configuration.GetConnectionString("statTrackerDb")));
             services.AddScoped<IStatRepository, StatRepository>();
         }
 

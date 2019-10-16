@@ -1,11 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using StatTrackerAPI.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
-namespace StatTrackerAPI.Persistence
+namespace StatTrackerAPI.DAL
 {
     public class RosterContext: DbContext
     {
