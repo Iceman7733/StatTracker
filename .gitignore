@@ -1,7 +1,5 @@
-.vs
-*.suo
-*.user
-_ReSharper.*
-bin
-obj
-packages
+*.pdb
+/bin/*
+/.vs/
+/obj/
+*.dll
