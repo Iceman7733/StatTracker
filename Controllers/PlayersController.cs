@@ -12,7 +12,6 @@ namespace StatTrackerAPI.Controllers
     {
         private IStatRepository _statRepository;
 
-
         public PlayersController(IStatRepository statRepository)
         {
             _statRepository = statRepository;
